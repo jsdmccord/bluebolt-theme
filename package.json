@@ -1,11 +1,11 @@
 {
-    "title": "Name of the theme",
-    "name": "github-<owner>-<repo>",
-    "description": "A sample dark theme.",
+    "title": "Blue Bolt",
+    "name": "github-jsdmccord-<repo>",
+    "description": "A sample dark theme based on primary color 3366FF.",
     "version": "0.0.1",
     "license": "MIT",
-    "author": "your name (https://github.com/<your github id>)",
-    "homepage": "<project web page url or this github repo url if no website available>",
+    "author": "jsdmccord (https://github.com/jsdmccord)",
+    "homepage": "https://github.com/jsdmccord/test-extension",
     "engines": {
         "brackets": ">=2.0.0"
     },

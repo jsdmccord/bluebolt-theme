@@ -8,13 +8,13 @@
 /* Core UI Colors
  * These variables control the fundamental visual elements of the editor
  */
-@background: #000;
-@foreground: #cdcdcd; // (Not for font color, but UI elements)
+@background: #000000;
+@foreground: #3366ff; // (Not for font color, but UI elements)
 
 @comment: #999;
 @comment-active: #aaa; // Applied when cursor is on a commented line
 
-@cursor: #cdcdcd;
+@cursor: #3366ff;
 
 /* Active Line Highlighting */
 @activeline-background: #232323;
@@ -96,6 +96,7 @@
 @header: #cdcdcd; // Markdown headers (#, ##, etc.)
 @error: #f7768e; // Text that represents an error in your code
 @error-background: #f7768e1a; // Background highlight for error text
+@text-color: #3366ff; // Text color
 
 
 
@@ -212,8 +213,9 @@
 .CodeMirror,
 .CodeMirror-scroll {
 	background-color: @background;
-	color: @foreground;
-}
+	//color: @foreground;
+	color: @text-color;
+	}
 
 // Styles for code selection
 .CodeMirror-selected {
