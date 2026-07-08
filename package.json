@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "license": "MIT",
     "author": "jsdmccord (https://github.com/jsdmccord)",
-    "homepage": "https://github.com/jsdmccord/test-extension",
+    "homepage": "https://github.com/jsdmccord/bluebolt-theme",
     "engines": {
         "brackets": ">=2.0.0"
     },
@@ -14,7 +14,7 @@
         "phcode", "theme", "demo"
     ],
     "theme": {
-        "file": "my-theme.less",
+        "file": "bluebolt-theme.less",
         "dark": true
     }
 }
